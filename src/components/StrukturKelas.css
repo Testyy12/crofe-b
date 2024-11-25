@@ -1,0 +1,138 @@
+/* Global Styles */
+:root {
+  --primary-color: #00796b;
+  --secondary-color: #e0f7fa;
+  --card-background: white;
+  --text-color-dark: #2c3e50;
+  --text-color-light: #f1f1f1;
+}
+
+/* Struktur Kelas Section */
+.struktur-kelas-modern {
+  background: linear-gradient(135deg, #81cff0 0%, #81cff0 100%);;
+  padding: 60px 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Section Title */
+.section-title {
+  text-align: center;
+  margin-bottom: 40px;
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* Container Styles */
+.struktur-mobile,
+.struktur-desktop {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.struktur-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.struktur-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+/* Struktur Card */
+.struktur-card {
+  width: 250px;
+  margin: 10px;
+  perspective: 1000px;
+}
+
+.struktur-card-inner {
+  background: var(--card-background);
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  transform-style: preserve-3d;
+}
+
+.struktur-card:hover .struktur-card-inner {
+  transform: 
+    translateY(-15px) 
+    rotateX(5deg) 
+    scale(1.05);
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.15);
+}
+
+.struktur-card-image {
+  width: 100%;
+  height: 300px;
+}
+
+.struktur-card-image img {
+  width 
+  : 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.struktur-info {
+  padding: 15px;
+  text-align: center;
+}
+
+.struktur-info h3 {
+  margin: 10px 0;
+  color: var(--text-color-dark);
+}
+
+.struktur-info p {
+  margin: 0;
+  color: var(--text-color-light);
+}
+
+/* Expand Button */
+.expand-button {
+  cursor: pointer;
+  margin-top: 20px;
+  background: var(--primary-color);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.expand-icon {
+  font-size: 1.5rem;
+}
+
+/* Media Queries */
+@media (max-width: 767px) {
+  .struktur-desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 768px) {
+  .struktur-mobile {
+    display: none;
+  }
+
+  .struktur-desktop {
+    display: block;
+  }
+}
