@@ -92,7 +92,7 @@ function StrukturKelas() {
             </div>
             <div className="struktur-row">
               {renderCard(strukturData[2])}
-              {renderCard(strukturData[4])}
+              {renderCard(strukturData[3])}
             </div>
 
             <AnimatePresence>
@@ -116,7 +116,7 @@ function StrukturKelas() {
                     transition: { duration: 0.3 }
                   }}
                 >
-                  {renderCard(strukturData[3])}
+                  {renderCard(strukturData[4])}
                   {renderCard(strukturData[5])}
                 </motion.div>
               )}
@@ -145,10 +145,10 @@ function StrukturKelas() {
             </div>
             <div className="struktur-row">
               {renderCard(strukturData[2])}
-              {renderCard(strukturData[4])}
+              {renderCard(strukturData[3])}
             </div>
             <div className="struktur-row">
-              {renderCard(strukturData[3])}
+              {renderCard(strukturData[4])}
               {renderCard(strukturData[5])}
             </div>
           </div>
