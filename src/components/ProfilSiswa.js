@@ -6,18 +6,18 @@ import './ProfilSiswa.css';
 
 const siswaData = [
   { 
-    nama: "Andi Setiawan", 
-    foto: "/andi.jpg", 
+    nama: "Achmad Faisal Fahcri", 
+    foto: "/siswa1.jpg", 
     prestasi: "Juara 1 Olimpiade Matematika" 
   },
   {
-    nama: "Budi Pratama", 
-    foto: "/budi.jpg", 
+    nama: "Ahmad Nur Fajri", 
+    foto: "/b.jpg", 
     prestasi: "Juara 2 Lomba Sains" 
   },
   {
-    nama: "Siti Nurhaliza", 
-    foto: "/siti.jpg", 
+    nama: "Ahmad Shollahudin Al Ayubi", 
+    foto: "/c.jpg", 
     prestasi: "Juara 1 Lomba Seni" 
   },
   // ... data siswa lainnya
