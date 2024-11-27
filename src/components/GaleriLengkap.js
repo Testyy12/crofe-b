@@ -4,7 +4,7 @@ import BackToHomeButton from './BackToHomeButton';
 import './GaleriLengkap.css';
 
 // Import semua foto
-import foto1 from './assets/images/foto1.jpg';
+import foto1 from './assets/images/20240828_110731.heic';
 import foto2 from './assets/images/foto2.jpg';
 import foto3 from './assets/images/foto3.jpg';
 import foto4 from './assets/images/foto4.jpg';
