@@ -1,12 +1,17 @@
 import React from 'react';
+import { motion } from 'framer-motion';
+import './Footer.css';
 
 function Footer() {
   return (
-    <footer className="footer">
-      <div className="container">
-        <p>&copy; 2024 Kelas 9B. Semua hak dilindungi.</p>
-      </div>
-    </footer>
+    <motion.footer 
+      className="footer-container"
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.5 }}
+    >
+      <p>&copy; 2023 Kelas IX B</p>
+    </motion.footer>
   );
 }
 
