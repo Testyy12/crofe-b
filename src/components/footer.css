@@ -1,0 +1,8 @@
+.footer-container {
+  padding: 1rem;
+  background: linear-gradient(135deg, rgba(15,17,35,0.8), rgba(26,26,46,0.8));
+  color: #ffffff;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
